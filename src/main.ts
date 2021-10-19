@@ -17,3 +17,4 @@ if(!environment.interval) {
 console.log("CloudflareUpdater Started");
 setInterval(() => CheckRecords(), environment.interval * 1000);
 CheckRecords();
+
